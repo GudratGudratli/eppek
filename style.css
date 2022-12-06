@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+}
+@font-face {font-family: "HelveticaW01-Bold"; src: url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.eot"); src: url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.woff") format("woff"), url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f7d1b2995a6dff7abcda304d226aa67d.svg#HelveticaW01-Bold") format("svg"); }
+/* navbar start */
+nav{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+    padding: 10px;
+}
+
+.nav-content .links{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.nav-content .links a{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav-content .links a:hover{
+    color: #dddddd;
+}
+
+.login-panel{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.login-panel i{
+    font-size: 20px;
+}
+
+.login-panel a{
+    color: #7d7268;
+}
+
+.nav-content #basket{
+    color: #7d7268;
+    font-size: 32px;
+}
+/* navbar end */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .main-content{
+    background-image: url(./eppek-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: 100% 90%; */ 
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-content .content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.main-content .content-text h2{
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+}
+
+.main-content .content-text p{
+    font-weight: 400;
+    font-size: 38px;
+    color: #000;
+}
+
+.main-content h3{
+    font-size: 40px;
+}
+
+.main-content .items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.main-content .items .item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-content .items .item svg{
+    width: 75px;
+    height: 75px;
+}
+
+.production{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.production-inner h2{
+    font-size: 74px;
+    width: 500px;
+}
+
+.production-inner .line{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.production-inner .line .inner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.production-inner .line .inner-text h4{
+    color: #a18989;
+}
+
+.production-inner .line .inner-text p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.production-inner .line #img1{
+    background-image: url(./line-1.png);
+    width: 280px;
+    height: 220px;
+}
+
+.production-inner .line #img2{
+    background-image: url(./line-2.png);
+    width: 335px;
+    height: 230px;
+}
+
+.production-inner .line #img3{
+    background-image: url(./line-3.png);
+    width: 285px;
+    height: 195px;
+}
