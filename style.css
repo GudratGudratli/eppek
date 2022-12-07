@@ -139,7 +139,9 @@ main .main-content{
 
 .production-inner h2{
     font-size: 74px;
+    font-weight: 800;
     width: 500px;
+    padding: 40px 0px;
 }
 
 .production-inner .line{
@@ -182,8 +184,15 @@ main .main-content{
     height: 195px;
 }
 
-.production-inner .line-white h4,.production-inner .line-white p{
-    color: #fff;
+/* .production-inner .content{
+    display: flex;
+    flex-direction: column;
+}
+*/
+.production-inner .content #line-last{
+    padding-bottom: 75px;
+    /* display: flex;
+    justify-self: end; */
 }
 
 main .info{
